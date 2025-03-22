@@ -9,14 +9,14 @@ const zconfig = {};
  * GENERAL SETTINGS
  ********************************/
 // Must match a file's name from /locales Ex: "en" = /locales/en.js
-zconfig.Language = "de";
+zconfig.Language = "en";
 // give console warnings when language locales are missing
 zconfig.LanguageWarnings = true;
 
 // PUBLIC VALUES
-zconfig.FivemName = "My Life Be Like";
-zconfig.Invite = "https://discord.gg/3xk3KHHAAB";
-zconfig.FivemUrl = "92.117.111.27";
+zconfig.FivemName = "مدينة أبها";
+zconfig.Invite = "https://discord.gg/abha1";
+zconfig.FivemUrl = "89.190.158.96";
 
 // Gives you an idea what is loading, disable if you want less console spam
 zconfig.VerboseLogging = true;
@@ -31,19 +31,19 @@ zconfig.DebugLogging = false;
 zconfig.Enabled = true;
 
 // DISCORD BOT
-zconfig.BotToken = "CHANGE";
-zconfig.ServerId = "000000000000000000";
-zconfig.ThemeColor = "#F2449E";
+zconfig.BotToken = "MTM1Mjg2NDQ1MTc0MDU2OTY1MA.GBu3HK.mjQCdIswUyEdl8MWEHANrjnNHpGDseIVqnCh3M";
+zconfig.ServerId = "1342528762499305603";
+zconfig.ThemeColor = "#000000";
 
 zconfig.SlashCommandsEnabled = true;
 zconfig.ModRoleIds = [
-    // "000000000000000000",
+    // "1342528974382694440",
 ];
 zconfig.AdminRoleIds = [
-    // "000000000000000000",
+    // "1342528968418656277",
 ];
 zconfig.GodRoleIds = [
-    // "000000000000000000",
+    // "1342528965931438122",
 ];
 
 // DISCORD BOT STATUS
@@ -83,9 +83,9 @@ zconfig.AutoAceDefaultStaffRoles = true;
 **************************/
 
 zconfig.WebhooksEnabled = false;
-zconfig.WebhooksName = "zlogs";
+zconfig.WebhooksName = "City Abha - مدينة أبها";
 // put "&" in front of the id if you're to ping a role | set to "everyone" to ping everyone
-zconfig.WebhooksPing = "&000000000000000000";
+zconfig.WebhooksPing = "everyone";
 // example: "bank": "https://discord.com/webhook/...",
 zconfig.LoggingWebhooks = {
     // "example": "https://discord.com/api/webhooks/000000000/sEcRRet-ToK3n_5tUfF_tH8t_YUo-S40u1d-n07-sHar3",
@@ -121,11 +121,11 @@ zconfig.vehicleStates = {
 
 // Timed message / Server status updater
 zconfig.TimedMessageEnabled = false;
-zconfig.TimedMessageChannelId = "000000000000000000";
+zconfig.TimedMessageChannelId = "1342530383618642011";
 zconfig.TimedMessageUpdateInterval = 1; // (Minutes)
 zconfig.TimedMessageReuseMessage = true;
 // Add id of message to be reused to reuse same message after restart
-zconfig.TimedMessageMessageId = "";
+zconfig.TimedMessageMessageId = "1344819619093024883";
 
 
 
